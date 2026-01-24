@@ -30,8 +30,7 @@ sequenceDiagram
     AuthenticationService->>+SignInManager: CheckPasswordAsync(user, password)
     SignInManager->>+ApplicationDbContext: Validate password hash
     ApplicationDbContext-->>-SignInManager: PasswordValid (bool)
-    SignInManager-->>-AuthenticationService: SignInResult (success/failure)
-    AuthenticationService->>AuthenticationService: Generate JWT token (if success)
+    SignInManager-->>-AuthenticationService: SignInResult (Token)
 ```
 
 ### Notes
