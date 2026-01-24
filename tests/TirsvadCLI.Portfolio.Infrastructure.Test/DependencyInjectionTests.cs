@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace TirsvadCLI.Portfolio.Infrastructure.Test;
 
@@ -16,4 +16,5 @@ public class DependencyInjectionTests
         // Assert
         Assert.Same(services, result);
     }
+
 }

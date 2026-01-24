@@ -14,14 +14,22 @@
   <Folder Name="/docs/UseCases/" />
   <Folder Name="/docs/UseCases/UC-001/">
     <File Path="docs/UseCases/UC-001/BriefUseCase.md" />
+    <File Path="docs/UseCases/UC-001/DCD.md" />
     <File Path="docs/UseCases/UC-001/DomainModel.md" />
+    <File Path="docs/UseCases/UC-001/ERD.md" />
+    <File Path="docs/UseCases/UC-001/operationContract.md" />
     <File Path="docs/UseCases/UC-001/README.md" />
+    <File Path="docs/UseCases/UC-001/SD.md" />
+    <File Path="docs/UseCases/UC-001/SSD.md" />
     <File Path="docs/UseCases/UC-001/UserStories.md" />
   </Folder>
   <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
     <File Path="docker-compose.yml" />
     <File Path="Dockerfile" />
     <File Path="README.md" />
+    <File Path="test.runsettings" />
   </Folder>
   <Folder Name="/Solution Items/Tools/" />
   <Folder Name="/Solution Items/Tools/docker/">

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <EnvironmentVariables>
+      <CONNECTIONSTRINGS_TEST__DEFAULTCONNECTION>Data Source=localhost;Port=5432;Initial Catalog=portfolio;Username=postgres;Password=postgres</CONNECTIONSTRINGS_TEST__DEFAULTCONNECTION>
+    </EnvironmentVariables>
+  </RunConfiguration>
+</RunSettings>
