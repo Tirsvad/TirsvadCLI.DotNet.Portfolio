@@ -2,8 +2,8 @@
 
 ## Metadata
 | **ID**      | **Description**                                                        | Cross Reference links                       |
-|-------------|-----------------------------------------------------------------------|---------------------------------------------|
-| UC-001-SD   | Sequence Diagram for Application user authentication use case        | [UC-001](../UC-001/README.md)               |
+|-------------|------------------------------------------------------------------------|---------------------------------------------|
+| UC-001-SD   | Sequence Diagram for Application user authentication use case          | [UC-001](../UC-001/README.md)               |
 
 ## Version
 **Version:** 1.0  
