@@ -6,3 +6,4 @@ bin/
 obj/
 g/
 nuget.config
+/docs/doxygen/html

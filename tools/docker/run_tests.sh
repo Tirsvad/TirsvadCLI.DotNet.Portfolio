@@ -42,7 +42,7 @@ if [ $exit_code -ne 0 ]; then
   exit $exit_code
 fi
 
-dotnet test -c Debug --results-directory "${resultDir}" --collect:"XPlat Code Coverage" --logger "trx" || exit_code=$?
+dotnet test -c Debug --results-directory "${resultDir}" --collect:"XPlat Code Coverage" --logger "trx" --settings .runsettings || exit_code=$?
 
 if [ $exit_code -ne 0 ]; then
   echo "Some tests failed with exit code $exit_code"

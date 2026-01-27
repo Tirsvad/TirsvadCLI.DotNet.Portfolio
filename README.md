@@ -36,7 +36,7 @@ Once installed, you can begin using the shared components and services in your a
 ### Environment Variables
 | Variable Name                             | Default Value | Description |
 | ------------------------------------------|---------------|-------------| 
-| CONNECTIONSTRINGS__DEFAULTCONNECTION | "Server=172.28.0.10;Database=portfolio;Username=postgres;Password=postgres" | The connection string for the test database |
+| TCLI_PORTFOLIO_CONNECTIONSTRINGS__DEFAULTCONNECTION | "Server=172.28.0.10;Database=portfolio;Username=postgres;Password=postgres" | The connection string for the test database |
 
 ## 🛠️ Database Migrations
 If any changes made to the database model, run the following command to apply migrations:

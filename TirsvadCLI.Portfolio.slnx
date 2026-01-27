@@ -1,5 +1,7 @@
 <Solution>
-  <Folder Name="/docs/" />
+  <Folder Name="/docs/">
+    <File Path="TestResults/CoverageReport/Latest/Html/index.html" />
+  </Folder>
   <Folder Name="/docs/architecture-decisions/">
     <File Path="docs/architecture-decisions/README.md" />
     <File Path="docs/architecture-decisions/v1.0-choose-clean-architecture-entity-framework-postgresql.md" />
@@ -29,7 +31,6 @@
     <File Path="docker-compose.yml" />
     <File Path="Dockerfile" />
     <File Path="README.md" />
-    <File Path="test.runsettings" />
   </Folder>
   <Folder Name="/Solution Items/Tools/" />
   <Folder Name="/Solution Items/Tools/docker/">

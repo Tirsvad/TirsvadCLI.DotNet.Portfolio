@@ -1,6 +1,6 @@
 using TirsvadCLI.Portfolio.Infrastructure.Data;
 
-namespace TirsvadCLI.Portfolio.Infrastructure.Test.Configurations
+namespace TirsvadCLI.Portfolio.Infrastructure.Test.Data.Configurations
 {
     public class ApplicationDbContextIntegrationTests : IDisposable
     {
