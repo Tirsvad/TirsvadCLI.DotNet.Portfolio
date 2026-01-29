@@ -24,12 +24,13 @@ sequenceDiagram
     participant SignInManager as "Core:SignInManager"
     participant ApplicationDbContext as "Infrastructure:ApplicationDbContext"
     AuthenticationService->>+UserManager: FindByNameAsync(username)
-    UserManager->>+ApplicationDbContext: _dbContext.Users.FirstOrDefaultAsync(u => u.UserName == username (Users LINQ query)
+    UserManager->>+ApplicationDbContext: _dbContext.Users.FirstOrDefaultAsync(u => u.UserName == username)
     ApplicationDbContext-->>-UserManager: ApplicationUser
     UserManager-->>-AuthenticationService: ApplicationUser
     AuthenticationService->>+SignInManager: AuthenticateAsync(user, password)
     SignInManager->>+ApplicationDbContext: GetPasswordHash(userId)
     ApplicationDbContext-->>-SignInManager: PasswordHash (string)
+
     SignInManager-->>-AuthenticationService: SignInResult (Token)
 ```
 
